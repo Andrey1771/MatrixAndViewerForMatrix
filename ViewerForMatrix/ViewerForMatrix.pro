@@ -29,13 +29,15 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
         matrix.cpp \
-        matrixmodel.cpp
+        matrixmodel.cpp \
+        room.cpp
 
 HEADERS += \
         imatrix.h \
         mainwindow.h \
         matrix.h \
-        matrixmodel.h
+        matrixmodel.h \
+        room.h
 
 FORMS += \
         mainwindow.ui
