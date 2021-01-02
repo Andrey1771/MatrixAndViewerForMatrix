@@ -1,6 +1,7 @@
 #include "room.h"
 
-Room::Room()
+Room::Room(XY aposOnMap, const Matrix& aroomMatrix)
 {
-
+    posOnMap = aposOnMap;
+    roomMatrix = aroomMatrix;
 }

@@ -1,12 +1,15 @@
 #ifndef ROOM_H
 #define ROOM_H
-
+#include "matrix.h"
+#include "utilities.h"
 
 class Room
 {
 public:
-    Room();
-
+    Room(XY aposOnMap, const Matrix &aroomMatrix);
+    int numberConnections;
+    Matrix roomMatrix;
+    XY posOnMap;
 
 };
 

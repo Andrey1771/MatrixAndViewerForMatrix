@@ -28,16 +28,20 @@ SOURCES += \
         imatrix.cpp \
         main.cpp \
         mainwindow.cpp \
+        map.cpp \
         matrix.cpp \
         matrixmodel.cpp \
-        room.cpp
+        room.cpp \
+        utilities.cpp
 
 HEADERS += \
         imatrix.h \
         mainwindow.h \
+        map.h \
         matrix.h \
         matrixmodel.h \
-        room.h
+        room.h \
+        utilities.h
 
 FORMS += \
         mainwindow.ui
